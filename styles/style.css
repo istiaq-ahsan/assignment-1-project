@@ -188,3 +188,42 @@ body {
     background-color: #FFF6F4;
     border-radius: 10px;
 }
+
+/* fifth page style */
+
+.fifth-elements {
+    margin: 30px auto 30px auto;
+    background-image: url("../assets/handshake.jpg");
+    width: 90%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.fifth-element {
+    text-align: center;
+    padding-top: 200px;
+    color: #ffffff;
+}
+
+.fifth-element h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#text {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+#submitbtn {
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
