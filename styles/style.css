@@ -152,7 +152,7 @@ body {
     width: 90%;
     height: 650px;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .ins-heading {
@@ -168,7 +168,7 @@ body {
     margin-right: auto; */
     width: 90%;
     height: 550px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -187,6 +187,8 @@ body {
     height: 300px;
     background-color: #FFF6F4;
     border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 /* fifth page style */
@@ -226,4 +228,22 @@ body {
     height: 40px;
     border: none;
     border-radius: 5px;
+}
+
+/* footer add */
+
+.endpart {
+    margin: 130px 0 0 0;
+
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 150px;
+}
+
+.end-elements {
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    padding-top: 50px;
+    /* justify-content: space-between; */
 }
