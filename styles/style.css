@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Azeret Mono", monospace; */
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* first page style */
+
+.heading-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.heading-btn {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.first-page-all {
+    margin-top: 30px;
+    max-width: 1440px;
+    width: 100%;
+    height: 650px;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first-page-element {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-p-img {
+    margin-top: 50px;
+    width: 240px;
+    height: 240px;
+}
+
+.f-p-h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #0D1231;
+    text-align: center;
+}
+
+.f-p-para {
+    text-align: center;
+    color: #0D1231;
+    font-size: 15px;
+
+
+}
+
+.f-p-btns {
+    margin-top: 15px;
+}
+
+.f-p-btn {
+    width: 250px;
+    height: 70px;
+    background-color: #0D1231;
+    color: #ffffff;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* second page style */
+.second-page-all {
+    margin: 0 auto;
+    width: 90%;
+    height: 1300px;
+    /* border: 2px solid red; */
+    background-color: #FAFAFB;
+}
+
+.s-p-heading {
+    padding-top: 20px;
+    text-align: center;
+    color: #0D1231;
+}
+
+.s-p-mains {
+    margin-top: 100px;
+}
+
+.s-p-main-1 {
+    margin: 30px auto 30px auto;
+    width: 95%;
+    height: 300px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(45deg, #ffffff 30%, #e0dde9 100%);
+    display: flex;
+    justify-content: space-betweens;
+}
+
+.s-p-main-2 {
+    margin: 30px auto 30px auto;
+    width: 95%;
+    height: 300px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(270deg, #ffffff 30%, #e0dde9 100%);
+    display: flex;
+    justify-content: space-betweens;
+}
+
+.s-p-main-element {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.s-p-img {
+    width: 300px;
+    height: 300px;
+    padding-left: 400px;
+}
+
+.learn-more-btn {
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.learn-more-btn:hover {
+    background-color: bisque;
+}
+
+.learn-more-btn a {
+    text-decoration: none;
+}
+
+/* third page style */
+
+.inspiration {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 650px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.ins-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* forth page styles */
+
+.f-elements {
+    margin: 30px auto 30px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 90%;
+    height: 550px;
+    border: 2px solid red;
+
+}
+
+.f-heading {
+    text-align: center;
+}
+
+.skills {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 350px;
+    height: 300px;
+    background-color: #FFF6F4;
+    border-radius: 10px;
+}
